@@ -13,6 +13,6 @@ class GyroscopeSimulator:
             "timestamp": time.time(),
             "x": round(random.uniform(self.min_value, self.max_value)),
             "Y": round(random.uniform(self.min_value, self.max_value)),
-            "z": random.uniform(self.min_value, self.max_value),
+            "z": round(random.uniform(self.min_value, self.max_value)),
         }
         return data
